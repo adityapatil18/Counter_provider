@@ -37,13 +37,13 @@ class _HomePageState extends State<HomePage> {
                   onPressed: () {
                     counterProvider.incrementCounter();
                   },
-                  child: Text('Increment'),
+                  child: Text('Increment ++'),
                 ),
                 ElevatedButton(
                   onPressed: () {
                     counterProvider.decrementCounter();
                   },
-                  child: Text('Decrement'),
+                  child: Text('Decrement --'),
                 ),
               ],
             ),
